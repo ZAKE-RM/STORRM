@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Protest+Riot&family=Russo+One&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif, "Russo One", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --nav-color: #f3f3e9;
+    --text-nav-color: #e600ff;
+    --text-nav-color-hover: #04b8ff;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/Image_Home/A/top-view-arrangement-with-spa-items-wooden-background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main .aze {
+    color: #000000;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main h2 {
+    color: rgb(0, 0, 0);
+    font-size: 1.4em;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: var(--text-nav-color-hover);
+    font-size: 4em;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main h3 {
+    color: #fff;
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10PX;
+    margin-bottom: 30px;
+}
+
+.dropbtn {
+    border-style: none;
+    background-color: #f3f3e9;
+    color: var(--text-nav-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-left: 0px;
+}
+
+.main-btn {
+    text-decoration: none;
+    color: #f3f3e9;
+    background-color: var(--text-nav-color);
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover {
+    background-color: var(--text-nav-color-hover);
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #f3c224;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cards {
+    padding: 6em;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 18em;
+    background-color: #fff;
+    padding: 25PX;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card .wwwloss {
+    display: flex;
+    font-size: 6em;
+    justify-content: center;
+    color: #f3c224;
+    margin: 0.5em;
+    align-items: center;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color: #5ae69f;
+    font-size: 1.2em;
+    margin: 10px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.info p {
+    font-size: 0.9em;
+}
+
+.about {
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.za {
+    font-size: 3rem;
+    margin: 5px 0;
+}
+
+.Bottoncreat button {
+    display: none;
+}
+
+.about .container-images {
+    width: 35%;
+}
+
+.about .container-images img {
+    width: 90%;
+}
+
+.about .container-texts {
+    width: 50%;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    line-height: 1.8rem;
+    font-size: 1rem;
+}
+
+h5 {
+    color: rgb(94, 93, 93);
+    letter-spacing: 1px;
+    line-height: 1.8rem;
+    font-size: 1rem;
+}
+
+.Arabic_text {
+    display: none;
+}
+
+span {
+    color: #00ff62;
+}
+
+/* footer {
+    padding: 2rem var(--padding);
+    background-color: var(--bgcolor-2);
+}
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .container-footer p {
+    color: var(--lightcolor);
+    width: 500px;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+footer .container-footer .end {
+    color: var(--text-nav-color);
+    margin-top: 1rem;
+} */
+
+/* Style The Dropdown Button */
+.dropbtn {
+    /* background-color: #4CAF50; */
+    color: var(--text-nav-color);
+    padding: 0px 15PX 0px 0px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    border-radius: 70px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* ملف: styles.css */
+
+/* تنسيق عام للتذييل */
+.footer {
+    background-color: #f1f1f1;
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* تنسيق الحاوية */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* تنسيق محتوى التذييل */
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* أقسام التذييل */
+.footer-section {
+    flex: 1;
+    padding: 10px;
+}
+
+/* تنسيق العناوين في التذييل */
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+/* تنسيق النصوص في التذييل */
+.footer-section p, .footer-section a {
+    color: rgb(0, 0, 0);
+    margin: 5px 0;
+}
+
+/* تنسيق الروابط في التذييل */
+.footer-section a {
+    text-decoration: none;
+}
+
+/* تنسيق قائمة الروابط المفيدة */
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* تنسيق العناصر في قائمة الروابط المفيدة */
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+/* تنسيق أيقونات التواصل الاجتماعي */
+.socials {
+    margin-top: 10px;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    color: #f1f1f1;
+    ;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #007bff;
+}
+
+/* التنسيق المتجاوب */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+    }
+}
+
+/* Media Queries */
+@media (max-width: 1023px) {
+    header {
+        padding: 12px 20px;
+    }
+    .navigation a {
+        padding-left: 10px;
+    }
+    .title {
+        font-size: 1.8em;
+    }
+    section {
+        padding: 80px 20px;
+    }
+    .main-content h2 {
+        font-size: 1em;
+    }
+    .main-content h3 {
+        font-size: 1.6em;
+    }
+    .main h2 span {
+        font-size: 1.9em;
+    }
+    .box {
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        display: flex;
+        justify-content: space-around;
+        align-content: stretch;
+        flex-direction: row-reverse;
+    }
+    .text-center h3 {
+        justify-content: center;
+        text-align: center;
+        margin-right: 110px;
+        width: 10%;
+    }
+    
+    .container-images {
+        display: none;
+    }
+    .about .container-images img {
+        display: none;
+    }
+    .about .container-texts {
+        width: 100%;
+        margin-top: 90px;
+    }
+  
+    .navigation .none {
+        padding-right: 16px;
+    }
+}
+
+@media (max-width: 500px) {
+    .dropbtn {
+        padding: 0px 5PX 0px 0px;
+    }
+}
+
+@media (max-width: 411px) {
+    .Bottoncreat button {
+        display: block;
+    }
+    body {
+        font-size: 12px;
+    }
+    .main-content h2 {
+        font-size: 0.8em;
+    }
+    .main-content h3 {
+        font-size: 1.4em;
+    }
+    h5 {
+        display: none;
+    }
+    .Arabic_text {
+        display: block;
+    }
+    .dropbtn {
+        padding: 0px 5PX 0px 0px;
+    }
+}
+
+@media (max-width: 300px) {
+    .Bottoncreat button {
+        display: block;
+    }
+    body {
+        font-size: 10px;
+    }
+    .za {
+        font-size: 2em;
+    }
+    .info p {
+        font-size: 0.6em;
+    }
+    .dropbtn {
+        font-size: 0px;
+        padding: 6px;
+    }
+    .dropbtn {
+        padding: 0px 5PX 0px 0px;
+    }
+}
+
+@media (max-width: 361px) {
+    .Bottoncreat button {
+        display: block;
+    }
+    body {
+        font-size: 10px;
+    }
+    .za {
+        font-size: 2em;
+    }
+    .info p {
+        font-size: 0.6em;
+    }
+    .navigation a .none {
+        display: none;
+    }
+    .dropbtn {
+        padding: 0px 5PX 0px 0px;
+    }
+}
